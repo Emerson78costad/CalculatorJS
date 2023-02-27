@@ -44,9 +44,10 @@ button{
     border:none;
     border-radius:5px;
     float:left;
-    background-color: rgb(13, 17 42);
+    background-color: rgb(13, 17, 42);
     color:#e0e1dd;
-    -webkit-box-shadow: -1px 1px 30px 5px rgba(0,0,0,0.2);
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
     -moz-box-shadow: -1px 1px  30px  -5px rgba(0,0,0,0.2);
     box-shadow:  -1px 1px 30px 5px rgba(0,0,0,0.2);
 }
